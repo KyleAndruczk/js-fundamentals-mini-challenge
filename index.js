@@ -225,13 +225,13 @@ console.log("%c----------", "color: red")
 console.log("%cScope & Closures - Question 2", "color: red")
 
 function ticketNumberGeneratorFunc() {
-  let ticket_num = 1;
+  let ticket_num = 1
 
     function takeATicketNumber(line) {
-      line.push( ticket_num );
-      ticket_num++;
+      line.push( ticket_num )
+      ticket_num++
       
-      return `Welcome. You are ticket number ${ ticket_num - 1 }`;
+      return `Welcome. You are ticket number ${ ticket_num - 1 }`
     }
 
   return takeATicketNumber
